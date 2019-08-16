@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+#titulo{
+  font-style: oblique;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+  color: blue;
+  font-size: 50px;
+}
+
+/* Inicio Slider */
+
+#c-slider{
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  position: relative; /* Para que los botones se posicionen en base al slider */
+  overflow: hidden; /* Para que solo se vea una imagen por contenido */
+  box-shadow: 0 0 0 2px;
+}
+
+#slider{
+  display: flex;
+  width: 400%; /* Porque son cuatro imagenes */
+}
+
+#slider section{
+  width: 100%;
+}
+
+#slider img{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#btn-prev, #btn-next{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 50%; /* Para que se muestre siempre en el medio del slider*/
+  transform: translateY(-50%);
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  font-family: monospace;
+  cursor: pointer;
+}
+
+#btn-prev:hover, #btn-next:hover{ /* Hover indica cuando pasa el mouse por encima de los botones */
+  background: rgba(255, 255, 255, 0.9);
+}
+
+#btn-prev{
+  left: 10px;
+}
+
+#btn-next{
+  right: 10px;
+}
+
+/* Fin slider */
+
+/* Inicio Contador */
+#fecha{
+  font-size: 40px;
+  color: red;
+  margin: auto;
+  padding-top: 50px;
+  text-align: center;
+  width: 100%;
+
+}
+/* Fin Contador */
+
+/* Inicio Footer */
+#sectionFooter{
+  width: 100%;
+  max-width: 100%;
+  padding-top: 30px;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 2px;
+
+}
+
+#footer{
+  width: 100%;
+  max-width: 100%;
+  padding-top: 5px;
+  background-color: gray;
+  margin: auto;
+  text-align: center;
+}
+/* Fin Footer */
