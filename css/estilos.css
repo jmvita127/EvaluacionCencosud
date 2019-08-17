@@ -1,4 +1,4 @@
-*{ /* Damos valores por default a todo el index con los siguientes valores para evitar problemas*/
+*{ /* Agregamos valores por default a todo el index para evitar problemas */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
