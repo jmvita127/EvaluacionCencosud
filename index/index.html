@@ -11,53 +11,56 @@
   <body>
 
         <!-- inicio del Slider -->
-        <div id="c-slider">
-          <!-- Dentro de slider estaran las cuatro secciones con las imagenes -->
-          <div id="slider">
-            <section> <img src="../images/imagen1.jpeg" alt=""> </section>
-            <section> <img src="../images/imagen2.jpeg" alt=""> </section>
-            <section> <img src="../images/imagen3.jpg" alt=""> </section>
-            <section> <img src="../images/imagen4.jpg" alt=""> </section>
+
+          <div id="c-slider">
+            <!-- Dentro de slider estaran las cuatro secciones con las imagenes -->
+            <div id="slider">
+              <section> <img src="../images/imagen1.jpeg"> </section>
+              <section> <img src="../images/imagen2.jpeg"> </section>
+              <section> <img src="../images/imagen3.jpg">  </section>
+              <section> <img src="../images/imagen4.jpg">  </section>
+            </div>
+            <!-- Los dos siguientes divs trabajaran como botones '<' y '>' -->
+            <div id="btn-prev">&#60;</div>
+            <div id="btn-next">&#62;</div>
           </div>
-          <!-- Los dos siguientes divs trabajaran como botones '<' y '>' -->
-          <div id="btn-prev">&#60;</div>
-          <div id="btn-next">&#62;</div>
-        </div>
 
         <!-- Contador -->
-        <div onLoad="mostrar_hora()">
+        <div onLoad="mostrar_hora()"> <!-- El evento onLoad ocurre cuando un objeto ha sido cargado -->
           <div id="fecha">
             <span id="hora"></span>:<span id="minuto"></span>:<span id="segundo"></span>
           </div>
         </div>
 
         <!-- imagen + parrafo -->
-        <div class="" style="max-width: 90%; margin: auto; margin-top: 100px;">
+        <div id="ip">
           <h1 id="titulo">CENCOSUD</h1>
           <div class="row no-gutters">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4"> <!-- La clase declarada dentro del div hace referencia al sistema de grillas para convertir al sitio en modo responsive -->
               <img src="../images/logo.jpg" class="card-img">
             </div>
-            <div class="col-12 col-md-8 col-lg-8">
+            <div class="col-12 col-md-12 col-lg-8">
                 <div class="card-body">
-                <h5 class="card-title">Acerca de nosotros..</h5>
-                  <p class="card-text">
-                    Nuestra misión consiste en trabajar, día a día, para llegar a ser el retailer más rentable
-                    y prestigioso de América Latina, en base a la excelencia en nuestra calidad del servicio,
-                    el respeto a las comunidades con las que convivimos y el compromiso de nuestro equipo de colaboradores.
-                    Somos uno de los más grandes y prestigiosos conglomerados de retail en América Latina.
-                    Contamos con operaciones activas en Argentina, Brasil, Chile, Perú y Colombia,
-                    donde día a día desarrollamos una exitosa estrategia multiformato que hoy da trabajo
-                    a más de 140 mil colaboradores.
-                    Nuestras operaciones se extienden a través de diferentes líneas de negocios, tales como supermercados,
-                    mejoramiento del hogar, tiendas por departamento, centros comerciales y servicios financieros.
-                    Esto nos ha convertido en la compañía de capitales latinoamericanos más diversificada del Cono Sur
-                    y con la mayor oferta de metros cuadrados.
-                    Adicionalmente, desarrollamos otras líneas de negocio que complementan nuestra operación central, como es el corretaje de seguros y centros de entretención familiar.
-                    Todos ellos cuentan con un gran reconocimiento y prestigio entre los consumidores, con firmas que destacan por su calidad, excelente nivel de servicio y satisfacción al cliente.
-                    En Cencosud, nuestro objetivo central es poder convertirnos en el mayor retailer de América Latina y entregar a nuestros cientos de miles de clientes,
-                    la máxima calidad de servicio, excelencia y compromiso, los 365 días del año.
-                  </p>
+                  <h5 class="card-title">Acerca de nosotros..</h5>
+                    <p class="card-text">
+                      Nuestra misión consiste en trabajar, día a día, para llegar a ser el retailer más rentable
+                      y prestigioso de América Latina, en base a la excelencia en nuestra calidad del servicio,
+                      el respeto a las comunidades con las que convivimos y el compromiso de nuestro equipo de colaboradores.
+                      Somos uno de los más grandes y prestigiosos conglomerados de retail en América Latina.
+                      Contamos con operaciones activas en Argentina, Brasil, Chile, Perú y Colombia,
+                      donde día a día desarrollamos una exitosa estrategia multiformato que hoy da trabajo
+                      a más de 140 mil colaboradores.
+                      Nuestras operaciones se extienden a través de diferentes líneas de negocios, tales como supermercados,
+                      mejoramiento del hogar, tiendas por departamento, centros comerciales y servicios financieros.
+                      Esto nos ha convertido en la compañía de capitales latinoamericanos más diversificada del Cono Sur
+                      y con la mayor oferta de metros cuadrados.
+                      Adicionalmente, desarrollamos otras líneas de negocio que complementan nuestra operación central,
+                      como es el corretaje de seguros y centros de entretención familiar.
+                      Todos ellos cuentan con un gran reconocimiento y prestigio entre los consumidores, con firmas que destacan por su calidad,
+                      excelente nivel de servicio y satisfacción al cliente.
+                      En Cencosud, nuestro objetivo central es poder convertirnos en el mayor retailer de América Latina y entregar a nuestros cientos de miles de clientes,
+                      la máxima calidad de servicio, excelencia y compromiso, los 365 días del año.
+                    </p>
                 </div>
             </div>
           </div>
@@ -70,7 +73,7 @@
         <div class="row">
           <div class="col-12 col-lg-4">
             <ul>
-            <h5>SOBRE CENCOSUD</h5>
+            <h5>SOBRE CENCOSUD</h5> <!-- target="_blank" ayuda a abrir el href en una pestaña nueva. De esta forma el usuario no abandona el sitio -->
              <a href="https://www.cencosud.com/" target="_blank"><li>Conoce Nuestra Historia</li></a>
              <a href="https://www.cencosud.com/" target="_blank"><li>Descubrir dónde nos encontramos</li></a>
              <a href="https://www.cencosud.com/" target="_blank"><li>Trabaja con Cencosud</li></a>
