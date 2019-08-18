@@ -1,16 +1,14 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
   <head>
+    <title>Evaluacion Cencosud</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Para que el sitio sea responsive -->
-    <link rel="stylesheet" href="../css/estilos/estilos.css">
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="../css/bootstrap/bootstrap-reboot.min.css">
-    <script type="text/javascript" src="../javaScript/bootstrapJS/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="../javaScript/bootstrapJS/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../javaScript/bootstrapJS/bootstrap.bundle.min.js"></script>
-    <title>Evaluacion Cencosud</title>
+    <meta name="description" content="Somos un retail multiformato con presencia en 5 países y con más de 140 mil colaboradores.">
+    <link rel="stylesheet" type="text/css" href="../css/estilos/estilos.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-reboot.min.css">
   </head>
 
   <body>
@@ -19,10 +17,10 @@
           <div id="c-slider">
             <!-- Dentro de slider estaran las cuatro secciones con las imagenes -->
             <div id="slider">
-              <section> <img src="../images/imagen1.jpeg"> </section>
-              <section> <img src="../images/imagen2.jpeg"> </section>
-              <section> <img src="../images/imagen3.jpg">  </section>
-              <section> <img src="../images/imagen4.jpg">  </section>
+              <section> <img src="../images/imagen1.jpeg" alt="Kingston"> </section>
+              <section> <img src="../images/imagen2.jpeg" alt="Gears 5">  </section>
+              <section> <img src="../images/imagen3.jpg"  alt="AMD">      </section>
+              <section> <img src="../images/imagen4.jpg"  alt="Volante">  </section>
             </div>
             <!-- Los dos siguientes divs trabajaran como botones '<' y '>' -->
             <div id="btn-prev">&#60;</div>
@@ -41,7 +39,7 @@
           <h1 id="titulo">CENCOSUD</h1>
           <div class="row no-gutters">
             <div class="col-12 col-md-4"> <!-- La clase dentro del div hace referencia al sistema de grillas para adaptar al sitio en distintos tamaños -->
-              <img src="../images/logo.jpg" class="card-img">
+              <img id="logo" src="../images/logo.jpg" class="card-img" alt="Logo Cencosud Oficial">
             </div>
             <div class="col-12 col-md-12 col-lg-8">
                 <div class="card-body">
@@ -78,27 +76,27 @@
           <div class="col-12 col-lg-4">
             <ul>
             <h5>SOBRE CENCOSUD</h5> <!-- target="_blank" ayuda a abrir el href en una pestaña nueva. De esta forma el usuario no abandona el sitio -->
-             <a href="https://www.cencosud.com/" target="_blank"><li>Conoce Nuestra Historia</li></a>
-             <a href="https://www.cencosud.com/" target="_blank"><li>Descubrir dónde nos encontramos</li></a>
-             <a href="https://www.cencosud.com/" target="_blank"><li>Trabaja con Cencosud</li></a>
+             <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Conoce Nuestra Historia</li></a>
+             <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Descubrir dónde nos encontramos</li></a>
+             <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Trabaja con Cencosud</li></a>
             </ul>
           </div>
 
           <div class="col-12 col-lg-4">
-          <ul>
-            <h5>MI CUENTA</h5>
-            <a href="https://www.cencosud.com/" target="_blank"><li>Mi Carrito</li></a>
-            <a href="https://www.cencosud.com/" target="_blank"><li>Ver Mi Datos</li></a>
-          </ul>
-          </div>
+            <ul>
+              <h5>MI CUENTA</h5>
+              <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Mi Carrito</li></a>
+              <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Ver Mi Datos</li></a>
+            </ul>
+            </div>
 
           <div class="col-12 col-lg-4">
-          <ul>
-            <h5>SERVICIO AL CLIENTE</h5>
-            <a href="https://www.cencosud.com/" target="_blank"><li>Formas De Pago</li></a>
-            <a href="https://www.cencosud.com/" target="_blank"><li>Garantia</li></a>
-            <a href="https://www.cencosud.com/" target="_blank"><li>Centro de Ayuda</li></a>
-          </ul>
+            <ul>
+              <h5>SERVICIO AL CLIENTE</h5>
+              <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Formas De Pago</li></a>
+              <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Garantia</li></a>
+              <a href="https://www.cencosud.com/" target="_blank" rel="external nofollow"><li>Centro de Ayuda</li></a>
+            </ul>
           </div>
          </div>
         </div>
@@ -107,13 +105,17 @@
         <div class="row">
           <div class="col-12">
             <footer id="footer">
-              <img src="../images/logo2.png">
+              <img src="../images/logo2.png" alt="Logo Cencosd blanco">
               <p>© Cenconsud 2017 | Todos los derechos reservados | Mesa central 600 300 0000</p>
             </footer>
           </div>
         </div>
 
 
+
+      <script type="text/javascript" src="../javaScript/bootstrapJS/jquery-3.4.1.min.js"></script>
+      <script type="text/javascript" src="../javaScript/bootstrapJS/bootstrap.min.js"></script>
+      <script type="text/javascript" src="../javaScript/bootstrapJS/bootstrap.bundle.min.js"></script>
       <script src="../javaScript/appJS/slider.js"></script>
       <script src="../javaScript/appJS/contador.js"></script>
   </body>

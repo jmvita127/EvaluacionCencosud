@@ -48,7 +48,7 @@ function slideAuto()
   interval = setInterval(function()
   {
     siguienteImagen();
-  }, 4000); //3000 indica la cantidad de milisegundos que va a tardar en cambiar a la proxima imagen.
+  }, 5000); //5000 indica la cantidad de milisegundos que va a tardar en cambiar a la proxima imagen.
 }
 
 //Ejecuto slideAuto

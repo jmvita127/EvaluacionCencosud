@@ -8,12 +8,12 @@
 
 #titulo
 {
-  font-style: oblique;
+  color: #0e4acf;
+  text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #0057d2;
   margin: auto;
   text-align: center;
   padding-bottom: 30px;
-  color: blue;
-  font-size: 50px;
+  font-size: 100px;
 }
 
 /* Inicio Slider */
@@ -83,14 +83,15 @@
 /* Inicio Contador */
 #fecha
 {
-  font-size: 40px;
-  color: red;
+  font-size: 30px;
   margin: auto;
-  padding-top: 50px;
   text-align: center;
-  width: 100%;
-
+  width: 35%;
+  box-shadow: 0 0 0 2px;
+  padding-top: 5px;
+  margin-top: 20px;
 }
+
 /* Fin Contador */
 
 /* Imagen + parrafo */
@@ -123,6 +124,14 @@
   margin: auto;
   text-align: center;
 }
+
+#footer p
+{
+  margin: 0px;
+  padding: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
 /* Fin Footer */
 
 /* Inicio media queries: al especificar max width, estamos diciendo que si como maximo hay 'Npx' de ancho, apliquemos lo siguiente. */
@@ -136,5 +145,19 @@
       #slider
       {
         display: none;
+      }
+
+      #titulo
+      {
+        font-size: 50px;
+        margin: auto;
+        text-align: center;
+      }
+
+      #logo
+      {
+        max-width: 100%;
+        margin: auto;
+        text-align: center;
       }
  }
