@@ -1,11 +1,13 @@
-*{ /* Agregamos valores por default a todo el index para evitar problemas */
+*
+{ /* Agregamos valores por default a todo el index para evitar problemas */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
 }
 
-#titulo{
+#titulo
+{
   font-style: oblique;
   margin: auto;
   text-align: center;
@@ -16,7 +18,8 @@
 
 /* Inicio Slider */
 
-#c-slider{
+#c-slider
+{
   margin: auto;
   width: 100%;
   max-width: 100%;
@@ -25,22 +28,26 @@
   box-shadow: 0 0 0 2px;
 }
 
-#slider{
+#slider
+{
   display: flex;
   width: 400%; /* Porque son cuatro imagenes en linea */
 }
 
-#slider section{
+#slider section
+{
   width: 100%;
 }
 
-#slider img{
+#slider img
+{
   display: block;
   width: 100%;
   height: 100%;
 }
 
-#btn-prev, #btn-next{ /* Botones que pertenecen al slider */
+#btn-prev, #btn-next
+{ /* Botones que pertenecen al slider */
   width: 40px;
   height: 40px;
   background: rgba(255, 255, 255, 0.3);
@@ -56,22 +63,26 @@
   cursor: pointer;
 }
 
-#btn-prev:hover, #btn-next:hover{ /* Hover indica cuando pasa el mouse por encima de los botones */
+#btn-prev:hover, #btn-next:hover
+{ /* Hover indica cuando pasa el mouse por encima de los botones */
   background: rgba(255, 255, 255, 0.9);
 }
 
-#btn-prev{
+#btn-prev
+{
   left: 10px;
 }
 
-#btn-next{
+#btn-next
+{
   right: 10px;
 }
 
 /* Fin slider */
 
 /* Inicio Contador */
-#fecha{
+#fecha
+{
   font-size: 40px;
   color: red;
   margin: auto;
@@ -83,7 +94,8 @@
 /* Fin Contador */
 
 /* Imagen + parrafo */
-#ip{
+#ip
+{
   max-width: 90%;
   margin: auto;
   margin-top: 70px;
@@ -91,7 +103,8 @@
 /* Fin imagen + parrafo  */
 
 /* Inicio Footer */
-#sectionFooter{
+#sectionFooter
+{
   width: 100%;
   max-width: 100%;
   padding-top: 30px;
@@ -101,7 +114,8 @@
 
 }
 
-#footer{
+#footer
+{
   width: 100%;
   max-width: 100%;
   padding-top: 5px;
@@ -114,6 +128,11 @@
 /* Inicio media queries: al especificar max width, estamos diciendo que si como maximo hay 'Npx' de ancho, apliquemos lo siguiente. */
 @media (max-width:590px)
  {
+      #c-slider
+      {
+        box-shadow: none;
+      }
+
       #slider
       {
         display: none;
